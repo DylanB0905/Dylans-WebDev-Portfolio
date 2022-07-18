@@ -1,0 +1,61 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color:cornflowerblue;
+    width: 100%;
+    height: 125px;
+    position:fixed;
+    
+}
+nav ul li {
+    float:right;
+    display:inline;
+    padding:0 10px 0 10px;
+    top:50%;
+    color:white
+
+}
+
+.about-me {
+    background-color:red;
+    display:flex
+}
+
+
+.Projects {
+    display:flex;
+    flex-direction: column;
+    padding:20px
+
+    
+}
+
+#first-project img {
+    position:relative;
+
+}.ptitle {
+    position:absolute;
+
+}
+
+
+
+footer {
+    background-color:cornflowerblue;
+    width:100%;
+    height: 100px;
+    margin-top: 40px;
+}
+
+footer ul li {
+    display:inline;
+    padding: 0 15px 0 15px;
+}
